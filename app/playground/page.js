@@ -33,7 +33,7 @@ export default function Page() {
       <div className="bg-gray-800 w-full p-4 flex justify-between items-center">
         <h1 className="text-white text-lg font-bold">Cappuccino</h1>
         <div className="flex items-center bg-gray-700 text-white px-2 py-1 rounded-full">
-          <span>⭐</span>
+          <span role="img" aria-label="star">⭐</span>
           <span className="ml-1">4.9</span>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function Page() {
               onClick={() => handleSizeClick(item)}
               className={`px-4 py-2 ml-1 border ${
                 size === item ? 'bg-brown-700 text-white' : 'text-gray-700 border-gray-400'
-              } first:ml-0 rounded-full`}
+              } first:ml-0 rounded-full focus:outline-none`}
             >
               {item}
             </button>
@@ -67,14 +67,14 @@ export default function Page() {
                 <div className="flex items-center gap-2">
                   <button
                     onClick={() => handleToppingChange(topping, -1)}
-                    className="bg-brown-700 text-white px-2 py-1 rounded-full"
+                    className="bg-brown-700 text-white px-2 py-1 rounded-full focus:outline-none"
                   >
                     -
                   </button>
                   <span className="mx-2">{toppings[topping]}</span>
                   <button
                     onClick={() => handleToppingChange(topping, 1)}
-                    className="bg-brown-700 text-white px-2 py-1 rounded-full"
+                    className="bg-brown-700 text-white px-2 py-1 rounded-full focus:outline-none"
                   >
                     +
                   </button>
@@ -83,8 +83,8 @@ export default function Page() {
             ))}
           </div>
         </div>
-        <div className="mt-6 flex justify-between items-center bg-brown-700 text-white px-6 py-3 rounded-full">
-          <button className="flex-1 text-center font-semibold">Add to Cart</button>
+        <div className="mt-6 flex justify-between items-center bg-brown-700 text-white px-6 py-3 rounded-full shadow-md">
+          <button className="flex-1 text-center font-semibold focus:outline-none">Add to Cart</button>
           <span className="flex-1 text-right font-semibold">{calculateTotal()}$</span>
         </div>
       </div>
