@@ -30,9 +30,9 @@ export default function Page() {
 
   return (
     <div className="flex flex-col items-center bg-gray-300 min-h-screen">
-      <div className="bg-gray-600 w-full p-4 flex justify-between items-center">
+      <div className="bg-gray-800 w-full p-4 flex justify-between items-center">
         <h1 className="text-white text-lg font-bold">Cappuccino</h1>
-        <div className="flex items-center bg-brown-500 text-white px-2 py-1 rounded-full">
+        <div className="flex items-center bg-gray-700 text-white px-2 py-1 rounded-full">
           <span>⭐</span>
           <span className="ml-1">4.9</span>
         </div>
@@ -86,7 +86,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-        <div className="mt-6 flex justify-between items-center bg-brown-800 text-white px-6 py-3 rounded-full">
+        <div className="mt-6 flex justify-between items-center bg-black text-white px-6 py-3 rounded-full">
           <button className="flex-1 text-center font-semibold">Add to Cart</button>
           <span className="flex-1 text-right font-semibold">{calculateTotal()}$</span>
         </div>
