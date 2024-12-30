@@ -23,7 +23,7 @@ export default function Page() {
   };
 
   const calculateTotal = () => {
-    const basePrice = 4;
+    const basePrice = 3; // Updated base price to match the design
     const toppingPrice = Object.values(toppings).reduce((acc, curr) => acc + curr, 0);
     return basePrice + toppingPrice;
   };
@@ -38,7 +38,7 @@ export default function Page() {
         </div>
       </div>
       <div className="bg-white rounded-t-3xl w-full p-6 mt-4 shadow-xl">
-        <h2 className="text-lg font-semibold text-brown-700">Coffee Size</h2>
+        <h2 className="text-lg font-semibold text-brown-800">Coffee Size</h2>
         <div className="flex mt-2">
           {['Small', 'Medium', 'Large'].map((item) => (
             <button
@@ -53,8 +53,8 @@ export default function Page() {
           ))}
         </div>
         <div className="mt-6">
-          <h2 className="text-lg font-semibold text-brown-700">About</h2>
-          <p className="text-gray-700 mt-2">
+          <h2 className="text-lg font-semibold text-brown-800">About</h2>
+          <p className="text-gray-700 mt-2 text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id ipsum vivamus velit lorem
             amet. Tincidunt cras volutpat aliquam porttitor molestie. Netus neque, habitasse id
             vulputate proin cras. Neque, vel duis sit vel pellentesque tempor. A commodo arcu tortor
@@ -62,7 +62,7 @@ export default function Page() {
           </p>
         </div>
         <div className="mt-6">
-          <h2 className="text-lg font-semibold text-brown-700">Add Topping(1$)</h2>
+          <h2 className="text-lg font-semibold text-brown-800">Add Topping(1$)</h2>
           <div className="flex flex-col mt-2">
             {Object.keys(toppings).map((topping) => (
               <div key={topping} className="flex items-center justify-between py-2 border-b border-gray-400">
