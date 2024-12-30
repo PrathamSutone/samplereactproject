@@ -23,9 +23,9 @@ export default function Page() {
   };
 
   const calculateTotal = () => {
-    const basePrice = 3;
+    const basePrices = { Small: 3, Medium: 4, Large: 5 };
     const toppingPrice = Object.values(toppings).reduce((acc, curr) => acc + curr, 0);
-    return basePrice + toppingPrice;
+    return basePrices[size] + toppingPrice;
   };
 
   return (
