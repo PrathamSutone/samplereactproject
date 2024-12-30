@@ -23,7 +23,7 @@ export default function Page() {
   };
 
   const calculateTotal = () => {
-    const basePrice = 3; // Updated base price to match the design
+    const basePrice = 3;
     const toppingPrice = Object.values(toppings).reduce((acc, curr) => acc + curr, 0);
     return basePrice + toppingPrice;
   };
@@ -55,14 +55,11 @@ export default function Page() {
         <div className="mt-6">
           <h2 className="text-lg font-semibold text-brown-800">About</h2>
           <p className="text-gray-700 mt-2 text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id ipsum vivamus velit lorem
-            amet. Tincidunt cras volutpat aliquam porttitor molestie. Netus neque, habitasse id
-            vulputate proin cras. Neque, vel duis sit vel pellentesque tempor. A commodo arcu tortor
-            arcu, elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id ipsum vivamus velit lorem amet. Tincidunt cras volutpat aliquam porttitor molestie. Netus neque, habitasse id vulputate proin cras. Neque, vel duis sit vel pellentesque tempor. A commodo arcu tortor arcu, elit.
           </p>
         </div>
         <div className="mt-6">
-          <h2 className="text-lg font-semibold text-brown-800">Add Topping(1$)</h2>
+          <h2 className="text-lg font-semibold text-brown-800">Add Topping ($1 Each)</h2>
           <div className="flex flex-col mt-2">
             {Object.keys(toppings).map((topping) => (
               <div key={topping} className="flex items-center justify-between py-2 border-b border-gray-400">
@@ -86,7 +83,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-        <div className="mt-6 flex justify-between items-center bg-black text-white px-6 py-3 rounded-full">
+        <div className="mt-6 flex justify-between items-center bg-brown-700 text-white px-6 py-3 rounded-full">
           <button className="flex-1 text-center font-semibold">Add to Cart</button>
           <span className="flex-1 text-right font-semibold">{calculateTotal()}$</span>
         </div>
