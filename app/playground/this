@@ -1,0 +1,9 @@
+playground
+     ├── page.js
+     ├── addcard.js (optional, remove if not needed)
+     ├── actionbuttons.js (optional, remove if not needed)
+     ├── carddetails.js (optional, remove if not needed)
+     └── components
+         ├── AddCard.js
+         ├── ActionButtons.js
+         └── CardDetails.js
