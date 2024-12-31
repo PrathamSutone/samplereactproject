@@ -1,6 +1,6 @@
 export default function CardDetails() {
   return (
-    <div className="bg-lime-500 text-black rounded-3xl p-8 shadow-lg text-left mt-4">
+    <div className="bg-[#39FF14] text-black rounded-3xl p-8 shadow-lg text-left mt-4">
       <div className="font-bold text-xl mb-2">VISA</div>
       <div className="flex justify-between items-center mb-4">
         <span>**** **** **** 3241</span>
