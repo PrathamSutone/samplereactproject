@@ -1,6 +1,6 @@
-import AddCard from './AddCard';
-import CardDetails from './CardDetails';
-import ActionButtons from './ActionButtons';
+import AddCard from './addcard';
+import CardDetails from './carddetails';
+import ActionButtons from './actionbuttons';
 
 export default function Page() {
   return (
