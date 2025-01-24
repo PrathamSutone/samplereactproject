@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    experimental: {
+      turbo: {
+        rules: {
+          '*.svg': {
+          loaders: ['@svgr/webpack'],
+          as: '*.js',
+          }
+        },
+      },
+    },
+  };
+  
+  export default nextConfig;
