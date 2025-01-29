@@ -2,7 +2,7 @@ import ArrowDownIcon from './arrow-down.svg';
 
 export default function Page() {
   return (
-    <div className="bg-white rounded-xl p-6 shadow-md flex flex-col items-start space-y-8">
+    <div className="bg-white rounded-xl p-6 flex flex-col items-start space-y-8">
       <div className="flex items-center space-x-2">
         <div className="w-6 h-6 rounded-full bg-[#3563E94D] flex justify-center items-center">
           <div className="w-3 h-3 rounded-full bg-blue-500"></div>

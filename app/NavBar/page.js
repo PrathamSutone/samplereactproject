@@ -13,8 +13,6 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export default function Page() {
-  console.log(typeof SearchIcon) // Should output "function"
-  console.log(SearchIcon) // Should show a React component, not an object
   return (
     <div className={`flex items-center justify-between p-6 bg-white ${plusJakarta.className}`}>
       {/* Left Section */}
