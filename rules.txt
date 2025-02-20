@@ -1,0 +1,9 @@
+import SVGs like this 
+import HeartIcon from './heart.svg';
+and images like this
+import Car from './Car.png';
+
+Use SVGs like this <HeartIcon/>
+and images like  <Image src={Car}/>
+
+Use font-jakarta everywhere

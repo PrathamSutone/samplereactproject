@@ -1,0 +1,61 @@
+Based on the provided design file and current code implementation, the following discrepancies have been identified. These issues are crucial for achieving a pixel-perfect match and should be addressed by the developer:
+
+1. Main Container Corner Radius
+   - Design: `cornerRadius: 10px`
+   - Code: `rounded-lg` (8px in Tailwind CSS)
+   - Issue: The main container has an 8px border radius in the code, whereas the design specifies a 10px radius.
+
+2. Font Size for "Nissan GT - R"
+   - Design: `fontSize: 32px`
+   - Code: `text-4xl` (36px in Tailwind CSS)
+   - Issue: The "Nissan GT - R" heading is rendered at 36px instead of the intended 32px.
+
+3. Font Size for Total Price "$800"
+   - Design: `fontSize: 32px`
+   - Code: `text-4xl` (36px in Tailwind CSS)
+   - Issue: The total price displays at 36px instead of the required 32px.
+
+4. Font Weight for "Apply now" Button
+   - Design: `fontWeight: 600` (SemiBold)
+   - Code: `font-medium` (500)
+   - Issue: The "Apply now" button uses a Medium font weight instead of the SemiBold specified in the design.
+
+5. Spacing Between Car Image and Details
+   - Design: `itemSpacing: 8px`
+   - Code: `ml-4` (16px margin-left in Tailwind CSS)
+   - Issue: The margin between the car image and its details is 16px in the code, while the design calls for 8px.
+
+6. Subtotal Amount
+   - Design: `$800`
+   - Code: `$80.00`
+   - Issue: There's a discrepancy in the subtotal amount displayed. The design specifies $800, but the code shows $80.00.
+
+7. Subtotal and Tax Layout Spacing
+   - Design: `itemSpacing: 212`
+   - Code: `justify-between` (flex spreads items to edges)
+   - Issue: The code uses `justify-between` which may not accurately replicate the specified 212px spacing between "Subtotal"/"Tax" labels and their corresponding amounts.
+
+8. Review Star Colors and Sizes
+   - Design: Stars have `backgroundColor: #FFFFFF`
+   - Code: SVGs are used with `className="w-4 h-4"`
+   - Issue: Ensure that the star SVGs have the correct fill color (`#FFFFFF`) and size as specified in the design. Any deviation might affect the visual consistency.
+
+9. Price Values Consistency
+   - Design: Total Rental Price is `$800`
+   - Code: Displays `$80.00`
+   - Issue: Ensure that the price values are consistent and accurately reflect the design specifications.
+
+10. Layer SVG Alignment and Styling
+    - Design: Each star layer should align correctly with proper spacing.
+    - Code: Uses `space-x-1` which equals 4px in Tailwind CSS
+    - Issue: Verify that the spacing between star SVGs matches the design's `itemSpacing: 2px` to ensure precise alignment.
+
+Recommendations:
+- Adjust Border Radius: Update the main container's border radius from `rounded-lg` to a custom class or use Tailwind's `rounded-[10px]`.
+- Update Font Sizes: Modify the font sizes for "Nissan GT - R" and the total price to match 32px using appropriate Tailwind classes (e.g., `text-2xl` or a custom class).
+- Correct Font Weights: Change the "Apply now" button's class from `font-medium` to `font-semibold` to achieve a SemiBold weight.
+- Modify Spacing: Reduce the margin between the car image and details from `ml-4` (16px) to `ml-2` (8px).
+- Synchronize Price Values: Ensure that the subtotal and total price values in the code reflect the design specifications accurately.
+- Verify Star Styling: Confirm that the star SVGs have the correct fill color and spacing to match the design.
+
+Addressing these issues will bridge the gaps between the design and implementation, ensuring a cohesive and visually accurate user interface.

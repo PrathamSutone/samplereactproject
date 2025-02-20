@@ -1,0 +1,434 @@
+{
+  "name": "Car Rent Website Design - Pickolab Studio (Community)",
+  "nodes": {
+    "44:15983": {
+      "document": {
+        "name": "Detail Car",
+        "clipsContent": true,
+        "cornerRadius": 10.0,
+        "backgroundColor": "#FFFFFF",
+        "fillColor": "#FFFFFF",
+        "children": [
+          {
+            "name": "Car Name",
+            "clipsContent": true,
+            "layoutMode": "VERTICAL",
+            "itemSpacing": 8.0,
+            "children": [
+              {
+                "name": "Nissan GT - R",
+                "characters": "Nissan GT - R",
+                "style": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontPostScriptName": "PlusJakartaSans-Bold",
+                  "fontStyle": "Bold",
+                  "fontWeight": 700,
+                  "fontSize": 32.0,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": -1.0,
+                  "lineHeightPx": 48.0,
+                  "lineHeightPercent": 119.0,
+                  "lineHeightPercentFontSize": 150.0
+                },
+                "fillColor": "#1A202C"
+              },
+              {
+                "name": "Reviews",
+                "clipsContent": true,
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 8.0,
+                "children": [
+                  {
+                    "name": "Review Star",
+                    "clipsContent": true,
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 2.0,
+                    "children": [
+                      {
+                        "name": "ic-actions-star",
+                        "clipsContent": true,
+                        "backgroundColor": "#FFFFFF",
+                        "fillColor": "#FFFFFF",
+                        "children": [
+                          {
+                            "name": "Layer"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "ic-actions-star",
+                        "clipsContent": true,
+                        "backgroundColor": "#FFFFFF",
+                        "fillColor": "#FFFFFF",
+                        "children": [
+                          {
+                            "name": "Layer"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "ic-actions-star",
+                        "clipsContent": true,
+                        "backgroundColor": "#FFFFFF",
+                        "fillColor": "#FFFFFF",
+                        "children": [
+                          {
+                            "name": "Layer"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "ic-actions-star",
+                        "clipsContent": true,
+                        "backgroundColor": "#FFFFFF",
+                        "fillColor": "#FFFFFF",
+                        "children": [
+                          {
+                            "name": "Layer"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "ic-actions-star",
+                        "clipsContent": true,
+                        "backgroundColor": "#FFFFFF",
+                        "fillColor": "#FFFFFF",
+                        "children": [
+                          {
+                            "name": "Layer"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "440+ Reviewer",
+                    "characters": "440+ Reviewer",
+                    "style": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontPostScriptName": "PlusJakartaSans-Medium",
+                      "fontStyle": "Medium",
+                      "fontWeight": 500,
+                      "fontSize": 14.0,
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "CENTER",
+                      "letterSpacing": 0.0,
+                      "lineHeightPx": 18.0,
+                      "lineHeightPercent": 100.0,
+                      "lineHeightUnit": "INTRINSIC_%"
+                    },
+                    "fillColor": "#596780"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the \"race track\".",
+            "characters": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the \"race track\".",
+            "style": {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontPostScriptName": "PlusJakartaSans-Regular",
+              "fontStyle": "Regular",
+              "fontWeight": 400,
+              "textAutoResize": "HEIGHT",
+              "fontSize": 20.0,
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "letterSpacing": -0.0,
+              "lineHeightPx": 40.0,
+              "lineHeightPercent": 159.0,
+              "lineHeightPercentFontSize": 200.0
+            },
+            "fillColor": "#596780"
+          },
+          {
+            "name": "Spesification",
+            "layoutMode": "HORIZONTAL",
+            "itemSpacing": 44.0,
+            "children": [
+              {
+                "name": "Spesification 1",
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 16.0,
+                "children": [
+                  {
+                    "name": "Typr",
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 16.0,
+                    "children": [
+                      {
+                        "name": "Type Car",
+                        "characters": "Type Car",
+                        "style": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontPostScriptName": "PlusJakartaSans-Regular",
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "fontSize": 20.0,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "CENTER",
+                          "letterSpacing": -0.0,
+                          "lineHeightPx": 30.0,
+                          "lineHeightPercent": 119.0,
+                          "lineHeightPercentFontSize": 150.0
+                        },
+                        "fillColor": "#90A3BF"
+                      },
+                      {
+                        "name": "Sport",
+                        "characters": "Sport",
+                        "style": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontPostScriptName": "PlusJakartaSans-SemiBold",
+                          "fontStyle": "SemiBold",
+                          "fontWeight": 600,
+                          "fontSize": 20.0,
+                          "textAlignHorizontal": "RIGHT",
+                          "textAlignVertical": "CENTER",
+                          "letterSpacing": -0.0,
+                          "lineHeightPx": 30.0,
+                          "lineHeightPercent": 119.0,
+                          "lineHeightPercentFontSize": 150.0
+                        },
+                        "fillColor": "#596780"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Steering",
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 16.0,
+                    "children": [
+                      {
+                        "name": "Steering",
+                        "characters": "Steering ",
+                        "style": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontPostScriptName": "PlusJakartaSans-Regular",
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "fontSize": 20.0,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "CENTER",
+                          "letterSpacing": -0.0,
+                          "lineHeightPx": 30.0,
+                          "lineHeightPercent": 119.0,
+                          "lineHeightPercentFontSize": 150.0
+                        },
+                        "fillColor": "#90A3BF"
+                      },
+                      {
+                        "name": "Manual",
+                        "characters": "Manual",
+                        "style": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontPostScriptName": "PlusJakartaSans-SemiBold",
+                          "fontStyle": "SemiBold",
+                          "fontWeight": 600,
+                          "fontSize": 20.0,
+                          "textAlignHorizontal": "RIGHT",
+                          "textAlignVertical": "CENTER",
+                          "letterSpacing": -0.0,
+                          "lineHeightPx": 30.0,
+                          "lineHeightPercent": 119.0,
+                          "lineHeightPercentFontSize": 150.0
+                        },
+                        "fillColor": "#596780"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Spesification 2",
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 16.0,
+                "children": [
+                  {
+                    "name": "Capacity",
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 16.0,
+                    "children": [
+                      {
+                        "name": "Capacity",
+                        "characters": "Capacity",
+                        "style": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontPostScriptName": "PlusJakartaSans-Regular",
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "fontSize": 20.0,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "CENTER",
+                          "letterSpacing": -0.0,
+                          "lineHeightPx": 30.0,
+                          "lineHeightPercent": 119.0,
+                          "lineHeightPercentFontSize": 150.0
+                        },
+                        "fillColor": "#90A3BF"
+                      },
+                      {
+                        "name": "2 Person",
+                        "characters": "2 Person",
+                        "style": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontPostScriptName": "PlusJakartaSans-SemiBold",
+                          "fontStyle": "SemiBold",
+                          "fontWeight": 600,
+                          "fontSize": 20.0,
+                          "textAlignHorizontal": "RIGHT",
+                          "textAlignVertical": "CENTER",
+                          "letterSpacing": -0.0,
+                          "lineHeightPx": 30.0,
+                          "lineHeightPercent": 119.0,
+                          "lineHeightPercentFontSize": 150.0
+                        },
+                        "fillColor": "#596780"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gasoline",
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 16.0,
+                    "children": [
+                      {
+                        "name": "Gasoline",
+                        "characters": "Gasoline ",
+                        "style": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontPostScriptName": "PlusJakartaSans-Regular",
+                          "fontStyle": "Regular",
+                          "fontWeight": 400,
+                          "fontSize": 20.0,
+                          "textAlignHorizontal": "LEFT",
+                          "textAlignVertical": "CENTER",
+                          "letterSpacing": -0.0,
+                          "lineHeightPx": 30.0,
+                          "lineHeightPercent": 119.0,
+                          "lineHeightPercentFontSize": 150.0
+                        },
+                        "fillColor": "#90A3BF"
+                      },
+                      {
+                        "name": "70L",
+                        "characters": "70L",
+                        "style": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontPostScriptName": "PlusJakartaSans-SemiBold",
+                          "fontStyle": "SemiBold",
+                          "fontWeight": 600,
+                          "fontSize": 20.0,
+                          "textAlignHorizontal": "RIGHT",
+                          "textAlignVertical": "CENTER",
+                          "letterSpacing": -0.0,
+                          "lineHeightPx": 30.0,
+                          "lineHeightPercent": 119.0,
+                          "lineHeightPercentFontSize": 150.0
+                        },
+                        "fillColor": "#596780"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "price",
+            "layoutMode": "VERTICAL",
+            "itemSpacing": 4.0,
+            "children": [
+              {
+                "name": "$80.00/ days",
+                "characters": "$80.00/ days",
+                "style": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontPostScriptName": "PlusJakartaSans-Bold",
+                  "fontStyle": "Bold",
+                  "fontWeight": 700,
+                  "fontSize": 32.0,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "lineHeightPx": 40.0,
+                  "lineHeightPercent": 100.0,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "fillColor": "#1A202C"
+              },
+              {
+                "name": "$100.00",
+                "characters": "$100.00",
+                "style": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontPostScriptName": "PlusJakartaSans-Bold",
+                  "fontStyle": "Bold",
+                  "fontWeight": 700,
+                  "textDecoration": "STRIKETHROUGH",
+                  "fontSize": 16.0,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "lineHeightPx": 20.0,
+                  "lineHeightPercent": 100.0,
+                  "lineHeightUnit": "INTRINSIC_%"
+                },
+                "fillColor": "#90A3BF"
+              }
+            ]
+          },
+          {
+            "name": "Button Rental",
+            "cornerRadius": 4.0,
+            "strokeWeight": 2.0,
+            "backgroundColor": "#3563E9",
+            "layoutMode": "HORIZONTAL",
+            "itemSpacing": 8.0,
+            "primaryAxisAlignItems": "CENTER",
+            "paddingLeft": 20.0,
+            "paddingRight": 20.0,
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "RIGHT"
+            },
+            "fillColor": "#3563E9",
+            "children": [
+              {
+                "name": "Rent Now",
+                "characters": "Rent Now",
+                "style": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontPostScriptName": "PlusJakartaSans-Bold",
+                  "fontStyle": "Bold",
+                  "fontWeight": 700,
+                  "fontSize": 16.0,
+                  "textAlignHorizontal": "CENTER",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": -0.0,
+                  "lineHeightPx": 24.0,
+                  "lineHeightPercent": 119.0,
+                  "lineHeightPercentFontSize": 150.0
+                },
+                "fillColor": "#FFFFFF"
+              }
+            ]
+          },
+          {
+            "name": "vuesax/bold/heart",
+            "children": [
+              {
+                "name": "vuesax/bold/heart",
+                "children": [
+                  {
+                    "name": "heart"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

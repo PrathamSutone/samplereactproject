@@ -1,10 +1,10 @@
+import { Plus_Jakarta_Sans } from 'next/font/google';
 import Image from "next/image";
 import HeartIcon from './heart.svg';
 import NotificationIcon from './notification.svg';
 import SettingIcon from './setting-2.svg';
 import SearchIcon from './search-normal.svg';
 import FilterIcon from './filter.svg';
-import { Plus_Jakarta_Sans } from 'next/font/google';
 
 // Import Plus Jakarta Sans font
 const plusJakarta = Plus_Jakarta_Sans({
@@ -12,7 +12,7 @@ const plusJakarta = Plus_Jakarta_Sans({
   weight: ['400', '700'],
 });
 
-export default function Page() {
+export default function NavBar({ onToggleSidebar }) {
   return (
     <div className={`flex items-center justify-between p-6 bg-white ${plusJakarta.className}`}>
       {/* Left Section */}
@@ -29,7 +29,10 @@ export default function Page() {
           className="w-full px-4 py-2 text-sm font-medium text-[#596780] bg-white border-none rounded-full focus:outline-none"
           style={{ letterSpacing: '-0.28px' }}
         />
-        <FilterIcon className="w-6 h-6 mr-4 text-[#596780]" viewBox="0 0 24 24" />
+        {/* Filter icon button to toggle sidebar */}
+        <button onClick={onToggleSidebar} className="mr-4">
+          <FilterIcon className="w-6 h-6 text-[#596780]" viewBox="0 0 24 24" />
+        </button>
       </div>
       
       {/* Right Section */}
@@ -40,7 +43,7 @@ export default function Page() {
         
         <button className="relative flex items-center justify-center w-12 h-12 bg-white border border-[#C3D4E9] rounded-full opacity-80">
           <NotificationIcon className="h-5 text-[#596780]" />
-          <span className="absolute w-3 h-3 bg-[#FF4423] rounded-full" style={{ top: '0', right: '0'}}></span>
+          <span className="absolute w-3 h-3 bg-[#FF4423] rounded-full" style={{ top: '0', right: '0' }}></span>
         </button>
         
         <button className="flex items-center justify-center w-12 h-12 bg-white border border-[#C3D4E9] rounded-full opacity-80">
